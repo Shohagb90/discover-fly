@@ -30,7 +30,11 @@ nav {
         padding: 0 !important;
     }
 }
-
+nav ul li a:hover,
+a.active {
+    background-color: #177b88;
+    border-radius: 5px;
+}
 nav ul {
     display: flex;
     justify-content: flex-end;
@@ -40,11 +44,6 @@ nav ul li a {
     color: goldenrod;
     padding: 10px;
     text-transform: uppercase;
-}
-nav ul li a:hover,
-a.active {
-    background-color: #177b88;
-    border-radius: 5px;
 }
 .main-content {
     display: grid;
